@@ -1,0 +1,26 @@
+#timmy
+{
+ font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 10px 10px 20px grey
+}
+#joj
+{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 10px 10px 20px grey
+}
+
+canvas{
+border-color: greenyellow;
+border-width: 10px;  
+border-radius: 20px;  
+border-style: solid;
+box-shadow: 20px 20px 20px grey;
+animation:colorchainga 2s infinite
+}
+@keyframes colorchainga{
+    0%{box-shadow: 20px 20px 20px rgb(255, 255, 255)}
+    50%{box-shadow: 20px 20px 20px rgb(0, 0, 0)}
+    100%{box-shadow: 20px 20px 20px rgb(255, 255, 255)}
+}
